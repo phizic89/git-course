@@ -27,5 +27,11 @@ git config --global user.name "новое имя" // имя в GitHub
 git config --global user.email // email в GitHub
 git config --global user.email "новый email" // email в GitHub
 
+// Размещение проекта на GitHub
 git remote add origin https://github.com/phizic89/git-course.git
 git push -u origin main
+
+// Клонирование проекта из GitHub
+git clone https://github.com/phizic89/git-course.git
+
+git pull // с сервера на локальную папку изменения переносим
