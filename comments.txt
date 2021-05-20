@@ -21,3 +21,11 @@ git branch название // создать ветку test
 git branch -D название // удалить ветку test
 git checkout название2 // переключиться на другую ветку 
 git checkout -b new // создание новой ветки (-b) и переход на нее
+
+git config --global user.name // имя в GitHub
+git config --global user.name "новое имя" // имя в GitHub
+git config --global user.email // email в GitHub
+git config --global user.email "новый email" // email в GitHub
+
+git remote add origin https://github.com/phizic89/git-course.git
+git push -u origin main
