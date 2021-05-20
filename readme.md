@@ -1,3 +1,3 @@
-#Git and Github Course
+# Git and Github Course
 
-Crssh course fo Git
+Crash course fo Git
